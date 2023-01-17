@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "header"; /* Nombre que se utilizará para hacer referencia a la fuente en el resto del código */
+  src: url("./assets//sofia/SofiaSans-ExtraBold.ttf"); /* Ruta de acceso a la fuente en el servidor */
+}
+@font-face {
+  font-family: "description"; /* Nombre que se utilizará para hacer referencia a la fuente en el resto del código */
+  src: url("./assets//sofia/SofiaSans-Regular.ttf"); /* Ruta de acceso a la fuente en el servidor */
+}
+*,
+body {
+  margin: 0;
+}
+body {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgb(28, 65, 100) 0%,
+    rgb(70, 18, 62) 90%
+  );
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 60%;
+  height: 100%;
+}
+.header {
+  color: rgb(218, 218, 218);
+  font-weight: 900;
+}
+.name {
+  font-size: 80px;
+  font-family: header;
+  text-shadow: 2px 2px 0 black;
+}
+.headline {
+  font-family: header;
+  font-style: italic;
+  font-size: 40px;
+  text-shadow: 2px 2px 0 black;
+}
+.about {
+  font-family: description;
+  margin-top: 50px;
+}
+.who {
+  text-align: center;
+  color: rgb(248, 248, 248);
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 0 black;
+}
+.description {
+  color: rgb(248, 248, 248);
+}
+.skills-container {
+  color: rgb(248, 248, 248);
+  font-family: description;
+  margin-top: 30px;
+}
+.skills {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 0 black;
+}
+.skills-list-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.skills-list {
+  list-style: none;
+}
+.skill-t {
+  text-shadow: 1px 1px 0 black;
+}
+.skills-list li {
+  margin-left: -25px;
+  margin-top: 10px;
+}
+.projects-container {
+  color: rgb(248, 248, 248);
+  font-family: description;
+  margin-top: 30px;
+}
+.projects {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 0 black;
+}
+.m3d-imgs {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid rgb(248, 248, 248);
+}
+.m3d-video {
+  width: 100%;
+  border-radius: 20px;
+  height: 500px;
+}
+.m3d-t {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 0 black;
+}
+.m3d-st {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 0 black;
+}
+.m3d-pts {
+  margin-top: 10px;
+}
+.m3d-pts-last {
+  margin-bottom: 20px;
+}
