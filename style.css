@@ -1,10 +1,10 @@
 @font-face {
   font-family: "header"; /* Nombre que se utilizará para hacer referencia a la fuente en el resto del código */
-  src: url("./assets//sofia/SofiaSans-ExtraBold.ttf") format("woff"); /* Ruta de acceso a la fuente en el servidor */
+  src: url("./assets/sofia/SofiaSans-ExtraBold.ttf") format("woff"); /* Ruta de acceso a la fuente en el servidor */
 }
 @font-face {
   font-family: "description"; /* Nombre que se utilizará para hacer referencia a la fuente en el resto del código */
-  src: url("./assets//sofia/SofiaSans-Regular.ttf") format("woff"); /* Ruta de acceso a la fuente en el servidor */
+  src: url("./assets/sofia/SofiaSans-Regular.ttf") format("woff"); /* Ruta de acceso a la fuente en el servidor */
 }
 *,
 body {
